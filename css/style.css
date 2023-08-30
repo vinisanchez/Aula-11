@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    padding: 0;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../img/rio.jpg);
+    background-size: 100%;
+}
+
+.container{
+    width: 60%;
+    text-align: justify;
+    background-color:bisque;
+    border: 1px solid #676767;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.menubar{
+    background-color: beige;
+    color: black;
+    padding: 1%;
+}
+
+.menubar li{
+    display: inline;
+    padding: 0 2%;
+    margin-left: 5%;
+}
+
+.menubar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menubar li a:hover, a:active {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.content{
+    padding: 1%;
+    font-size: 18px;
+}
+
+.texto{
+    margin-left: 10%;
+    width: 80%;
+}
+
+.content p{
+    text-align: center; 
+    font-size: 24px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.autor{
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer{
+    padding: 2%;
+    background-color: beige;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+    float: left;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 12%;
+    
+}
+
+.header h1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+
+.img-home{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    padding: 1%;
+}
+
+.img-galeria{
+    padding: 2%;
+    width: 280px;
+    height: 280px;
+    border-radius: 10%;
+}
+
+figcaption, a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.conecta{
+    text-decoration: none;
+}
+
+.zap-local{
+    float: right;
+    margin: 10% 15% 0 0;
+    text-align: center;
+}
+
+.mapa-local{
+    margin-left: 5%;
+}
+
+.grupoform{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 8%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
